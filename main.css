@@ -51,12 +51,13 @@ h1 {
 
 
 
-section {
-    display: center;
-    text-align: center;
-    place-items: center;
-    align-items: center;
-    min-height: 100vh;
+section.first_page {
+  width: 100%; /* Set the width as per your requirement */
+  height: 100vh; /* Set the height as per your requirement */
+  background: url('images/ruudlayer.gif')center/cover no-repeat; /* Set the background properties */
+  position: relative;
+  display: flex;
+  z-index: -10;
 }
 
 .hidden {
@@ -78,13 +79,14 @@ section {
 
 
 
+
 .container {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 100%; /* Set the width as per your requirement */
+  height: 100%; /* Set the height as per your requirement */
+  position: relative;
+  margin-top: 130px;
 }
+
 
 .content {
     text-align: center;
@@ -93,11 +95,7 @@ section {
     font-size: 60px;
 
 }
-.background-clip {
-    position: absolute;
-    z-index: -1;
-    right: 0;
-}
+
 
 
 
