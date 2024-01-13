@@ -21,6 +21,7 @@ h1 {
     position: fixed;
     width: 95%;
     top: 2px;
+    z-index: 10;
   }
   
   .topnav a {
@@ -51,12 +52,15 @@ h1 {
 
 
 
-section {
-    display: center;
-    text-align: center;
-    place-items: center;
-    align-items: center;
-    min-height: 100vh;
+section.first_page {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-image: url('images/ruudlayer.gif');
+  background-size: cover;
+  background-position: center;
+  color: #fff; 
 }
 
 .hidden {
@@ -91,13 +95,10 @@ section {
     margin-bottom: 200px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 60px;
+    z-index: 7;
 
 }
-.background-clip {
-    position: absolute;
-    z-index: -1;
-    right: 0;
-}
+
 
 
 
@@ -121,8 +122,11 @@ section {
     height: 60px;
     border-radius: 20px;
     font-family: sans serif;
-    background-color: white;
+    background-color: transparent;
     font-size: 20px;
+    border: solid 3px;
+    border-color: white;
+    color: white;
 }
 
 
