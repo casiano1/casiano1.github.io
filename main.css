@@ -14,8 +14,19 @@ section {
 }
 
 .p-head{
-  font-family: 'Teko', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  font-size: 15px;
+  margin-bottom: 60px;
 }
+
+
+
+h1 {
+  color: white;
+  margin: 4px;
+}
+
 /* Page laoded  */
 
 
@@ -97,11 +108,6 @@ img {
 
 
 
-
-
-h1 {
-    color: white;
-}
 
 
 
