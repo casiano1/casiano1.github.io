@@ -159,6 +159,7 @@ img {
 
 
 section.first_page {
+  display: block;
   width: 100%;
   margin: 0;
   padding: 0;
@@ -214,7 +215,8 @@ section.container {
 /* section 2  */
 
 span.auto-type {
-  color: rgb(10, 3, 66);
+  color: rgb(20, 100, 236);
+  font-size: 25px;
 }
 
 .base_content {
