@@ -14,3 +14,14 @@ const observer = new IntersectionObserver((entries) => {
 const hiddenElements = document.querySelectorAll('.hidden');
 hiddenElements.forEach((el) => observer.observe(el));
 
+
+
+document.addEventListener('scroll', () => {
+    const header = document.querySelector('.topnav');
+
+    if (window.scrollY > 730) {
+        header.classList.add('scrolled');
+    } else {
+        header.classList.remove('scrolled');
+    }
+})

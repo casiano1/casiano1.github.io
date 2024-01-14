@@ -134,6 +134,10 @@ img {
     top: 2px;
     z-index: 10;
   }
+
+  .topnav.scrolled {
+    background-color: rgb(37 29 7);
+  }
   
   .topnav a {
     float: left;
