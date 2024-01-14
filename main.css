@@ -32,12 +32,10 @@ h1 {
 
 
 .page_loaded{
-  animation: transitionIn 5s;
+  animation: transitionIn 2s;
 }
 
-.content {
-  animation: transitionIn 10s;
-}
+
 @keyframes transitionIn {
   from {
     opacity: 0;
@@ -108,6 +106,16 @@ img {
 
 
 
+@keyframes slideFromBelow {
+  0% {
+      transform: translateY(100%);
+      opacity: 0;
+  }
+  100% {
+      transform: translateY(0);
+      opacity: 1;
+  }
+}
 
 
 
@@ -206,7 +214,7 @@ section.container {
 /* section 2  */
 
 span.auto-type {
-  color: rgb(255, 255, 0);
+  color: rgb(10, 3, 66);
 }
 
 .base_content {
@@ -216,10 +224,65 @@ span.auto-type {
   justify-content: center;
 }
 
+
+
+
+
+.hiddenn {
+
+    border-radius: 30px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    height: 600px;
+    animation: fade-in linear;
+    animation-timeline: view();
+    animation-range-start: cover;
+    animation-range-end: 800px;
+}
+
+
+.section_ruud {
+  
+  border-radius: 30px;
+  margin: 20px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  background-color: beige;
+  height: 600px;
+}
+
+
+
+.h1_section_ruud {
+  color: black;
+}
+
+
+
+
+
+
+
 img.ruud_black {
   width: 300px;
   height: 400px;
+  animation: fade-in linear;
+  animation-timeline: view();
+  animation-range-start: cover;
+  animation-range-end: 800px;
+
 }
+
+
+@keyframes fade-in {
+  from {scale: 0.7; opacity: 0;}
+  to {scale: 1; opacity: 1;}
+}
+
 
 
 .container_auto_type {
