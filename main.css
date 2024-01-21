@@ -149,6 +149,9 @@ img {
     font-size: 17px;
   }
   
+  .topnav.scrolled a {
+    background-color: black;
+  }
   .topnav a:hover {
     color: rgb(255, 255, 255);
   }
@@ -340,10 +343,16 @@ img.ruud_black {
   @media screen and (max-width: 600px) {
     
     .topnav.responsive a {
+      background-color: black;
       float: none;
       display: block;
       text-align: center;
     }
   }
+
+
+    
+    
+
 
   /* end navbar */

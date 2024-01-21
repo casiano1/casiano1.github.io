@@ -25,3 +25,4 @@ document.addEventListener('scroll', () => {
         header.classList.remove('scrolled');
     }
 })
+
